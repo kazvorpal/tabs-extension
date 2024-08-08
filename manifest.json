@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Wrangler",
+    "version": "1.34",
+    "description": "Add prefixes to window titles for better organization.",
+    "permissions": [
+      "tabs", "storage", "activeTab", "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "img/kazar.png"
+      }
+    },
+    "icons": {
+      "128": "img/kazar.png"
+    }
+  }
+  
